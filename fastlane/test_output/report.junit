@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ReferenceiOSUITests.xctest' tests='7' failures='0'>
+  <testsuite name='ReferenceiOSUITests.AppStateTests' tests='3' failures='0'>
+    <testcase classname='ReferenceiOSUITests.AppStateTests' name='testShouldKeepStateAfterSendingAppToBackground' time='6.621'/>
+    <testcase classname='ReferenceiOSUITests.AppStateTests' name='testShouldResetStateAfterKillingApp' time='7.859'/>
+    <testcase classname='ReferenceiOSUITests.AppStateTests' name='testShouldShowWelcomeMessageAndButtonOnLaunch' time='4.788'/>
+  </testsuite>
+  <testsuite name='ReferenceiOSUITests.CurrencyFormattingTests' tests='2' failures='0'>
+    <testcase classname='ReferenceiOSUITests.CurrencyFormattingTests' name='testShouldShowCorrectCurrencySign' time='3.322'/>
+    <testcase classname='ReferenceiOSUITests.CurrencyFormattingTests' name='testShouldShowCorrectEuroFormat' time='3.392'/>
+  </testsuite>
+  <testsuite name='ReferenceiOSUITests.CurrencyGenerationTests' tests='2' failures='0'>
+    <testcase classname='ReferenceiOSUITests.CurrencyGenerationTests' name='testShouldGiveRandomNumberBetweenBoundaries' time='3.407'/>
+    <testcase classname='ReferenceiOSUITests.CurrencyGenerationTests' name='testShouldGiveRandomNumberBetweenBoundariesConsistently' time='8.791'/>
+  </testsuite>
+</testsuites>
