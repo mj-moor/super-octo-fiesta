@@ -2,7 +2,6 @@ import XCTest
 
 class CurrencyFormattingTests: TestBase {
     
-    
     func testShouldShowCorrectCurrencySign() {
         pages.main.generateButton.tap()
         verifyElementText(pages.main.generatedCurrencyOutput, contains: "€")
