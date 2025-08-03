@@ -23,7 +23,7 @@ The UI tests follow the **Page Object Model (POM)** pattern, providing a clean s
 - **TestBase+Assertions**: Custom assertion methods for common validations
 - **TestBase+Navigation**: App lifecycle methods (kill/relaunch, background/foreground)
 - **TestBase+Waits**: Explicit wait strategies for element synchronization
-- **XCUIElement+Extensions**: Currency parsing utilities with locale support
+- **XCUIElement+Extensions**: Currency parsing utilities
 
 #### 4. Test Classes (`Tests/`)
 - **AppStateTests**: Validates app state persistence across lifecycles
