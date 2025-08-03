@@ -2,7 +2,6 @@ import XCTest
 
 extension XCUIElement {
     
-    // Gets the currency amount from label attribute or returns nil when parsing fails
     var currencyAmount: Double? {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
